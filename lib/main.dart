@@ -15,7 +15,7 @@ void main() {
             ),
           ),
           child: const Center(
-            child: Text("Helloo, World"),
+            child: Text("Hello, World"),
           ),
         ),
       ),
