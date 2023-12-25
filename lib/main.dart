@@ -9,7 +9,7 @@ void main() {
             gradient: LinearGradient(
               colors: [
                 Color(0xff2e0733),
-                Color(0xff37073d),
+                Color(0xffee81fd),
                 Color(0xff3f0946),
               ],
             ),
