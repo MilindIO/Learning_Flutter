@@ -8,14 +8,20 @@ void main() {
           decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                Color(0xff000000),
-                Color(0xff0004d4),
-                Color(0xffff4069),
+                Color(0xf41b004e),
+                Color(0xff52085c),
+                Color(0xf41b004e),
               ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
           ),
           child: const Center(
-            child: Text("Hello, World"),
+            child: Text("Hello, World",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 28,
+                )),
           ),
         ),
       ),
